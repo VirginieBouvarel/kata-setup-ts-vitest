@@ -1,0 +1,21 @@
+{
+  "name": "kata-setup-ts-vitest",
+  "version": "1.0.0",
+  "description": "Kata setup TS / Vitest",
+  "scripts": {
+    "test": "vitest",
+    "eslint": "eslint './**/*.{ts,js}' --fix"
+  },
+  "devDependencies": {
+    "vite": "^5.1.6",
+    "vitest": "^1.4.0",
+    "eslint": "^8.57.0",
+    "eslint-import-resolver-typescript": "^3.6.1",
+    "eslint-plugin-import": "^2.29.1",
+    "eslint-plugin-prettier": "^5.1.3",
+    "@typescript-eslint/eslint-plugin": "^7.2.0",
+    "@typescript-eslint/parser": "^7.2.0",
+    "prettier": "^3.2.5",
+    "typescript": "^5.4.2"
+  }
+}
